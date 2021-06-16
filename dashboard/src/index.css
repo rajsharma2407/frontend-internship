@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.invoices div{
+    margin-top: 5px;
+    margin-right:50px;
+}
+span{
+    color:gray;
+}
+.mainSection div{
+    margin:20px;
+}
+img{
+    width:100%;
+}
+.dropbox{
+    height:160px;
+    width:140px;
+    border-radius: 20px;
+    background:rgb(240, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-cloud-upload-alt{
+    border: 1px dashed gray;
+    height:85%;
+    width:85%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    flex-wrap: wrap;
+}
+.footer div{
+    margin:10px;
+}
+.clr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height:160px;
+    width:140px;
+    border-radius: 20px;
+    background:rgb(240, 235, 235);
+}
+.footerImg{
+    width:300px;
+}
